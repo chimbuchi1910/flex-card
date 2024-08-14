@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box-parent {
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(112, 235, 112),
+    rgb(110, 237, 247),
+    rgb(248, 92, 92)
+  );
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  border-radius: 10px;
+  align-self: center;
+  height: 50%;
+  width: 25%;
+  background-color: white;
+}
+.nearest {
+  background-color: rgba(240, 120, 240, 0.884);
+  width: 100px;
+  height: 20px;
+  font-size: medium;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+img {
+  margin-top: 20px;
+  margin-left: 90px;
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+}
+h3 {
+  margin-top: 10%;
+  margin-left: 5%;
+  font-size: x-large;
+}
+h5 {
+  font-size: small;
+  color: rgb(124, 117, 113);
+  margin-top: 10%;
+  margin-left: 5%;
+}
+h4 {
+  font-weight: bold;
+  /* margin-top: 10px; */
+  margin-left: 5%;
+}
+.cart {
+  margin-top: 15px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(212, 208, 208);
+  width: 145px;
+  height: 50px;
+}
+.cart:hover {
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(134, 133, 133);
+  width: 145px;
+  height: 50px;
+}
+.buy {
+  color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(214, 100, 214);
+  width: 145px;
+  height: 50px;
+}
+.buy:hover {
+  cursor: pointer;
+  color: white;
+  margin-top: 15px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(134, 28, 134);
+  width: 145px;
+  height: 50px;
+}
+.button-div {
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+@media (max-width: 834px) {
+  .box-parent {
+    width: auto;
+    height: auto;
+    display: grid;
+    
+  }
+  .box1 {
+    margin-left: 50px;
+    flex-wrap: wrap;
+    height: 55vh;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+}
